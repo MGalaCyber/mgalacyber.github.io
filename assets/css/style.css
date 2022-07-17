@@ -522,50 +522,50 @@ section .container {
 }
 
 /*--------------------------------------------------------------
-# Testimonials
+# Hobbies
 --------------------------------------------------------------*/
-.testimonials .testimonials-carousel, .testimonials .testimonials-slider {
+.myHobbies .hobbies-carousel, .myHobbies .hobbies-slider {
   overflow: hidden;
 }
-.testimonials .testimonial-item {
+.myHobbies .hobby-item {
   box-sizing: content-box;
   min-height: 320px;
 }
-.testimonials .testimonial-item .testimonial-img {
+.myHobbies .hobby-item .testimonial-img {
   width: 90px;
   border-radius: 50%;
   margin: -40px 0 0 40px;
   position: relative;
   z-index: 2;
-  border: 6px solid rgba(255, 255, 255, 0.12);
+  border: 6px solid #18d26e;
 }
-.testimonials .testimonial-item h3 {
+.myHobbies .hobby-item h3 {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 45px;
   color: #fff;
 }
-.testimonials .testimonial-item h4 {
+.myHobbies .hobby-item h4 {
   font-size: 14px;
   color: #999;
   margin: 0 0 0 45px;
 }
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+.myHobbies .hobby-item .quote-icon-left, .myHobbies .hobby-item .quote-icon-right {
   color: rgba(255, 255, 255, 0.25);
   font-size: 26px;
 }
-.testimonials .testimonial-item .quote-icon-left {
+.myHobbies .hobby-item .quote-icon-left {
   display: inline-block;
   left: -5px;
   position: relative;
 }
-.testimonials .testimonial-item .quote-icon-right {
+.myHobbies .hobby-item .quote-icon-right {
   display: inline-block;
   right: -5px;
   position: relative;
   top: 10px;
 }
-.testimonials .testimonial-item p {
+.myHobbies .hobby-item p {
   font-style: italic;
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
@@ -575,17 +575,17 @@ section .container {
   position: relative;
   z-index: 1;
 }
-.testimonials .swiper-pagination {
+.myHobbies .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
-.testimonials .swiper-pagination .swiper-pagination-bullet {
+.myHobbies .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   opacity: 1;
   background-color: rgba(255, 255, 255, 0.3);
 }
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+.myHobbies .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #18d26e;
 }
 
@@ -787,8 +787,8 @@ section .container {
   position: absolute;
   top: 35px;
   left: 35px;
-  border-top: 3px solid #fff;
-  border-left: 3px solid #fff;
+  border-top: 3px solid #63eda3;
+  border-left: 3px solid #63eda3;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
@@ -800,8 +800,8 @@ section .container {
   position: absolute;
   bottom: 35px;
   right: 35px;
-  border-bottom: 3px solid #fff;
-  border-right: 3px solid #fff;
+  border-bottom: 3px solid #63eda3;
+  border-right: 3px solid #63eda3;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }

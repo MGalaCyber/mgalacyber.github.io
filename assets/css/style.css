@@ -12,6 +12,11 @@
   width: 0;
 }
 
+@font-face{
+  font-family: myFont;
+  src:url("../font/Saiyan-Sans.ttf");
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
@@ -1207,7 +1212,7 @@ section .container {
 /*--------------------------------------------------------------
 # Credits
 --------------------------------------------------------------*/
-.credits {
+.visitor {
   position: fixed;
   right: 0;
   left: 0;
@@ -1219,16 +1224,16 @@ section .container {
   z-index: 999999;
 }
 @media (max-width: 992px) {
-  .credits {
+  .visitor {
     text-align: center;
     padding: 10px;
     background: rgba(0, 0, 0, 0.8);
   }
 }
-.credits a {
+.visitor a {
   color: #18d26e;
-  transition: 0.3s;
+  transition: 0.5s;
 }
-.credits a:hover {
+.visitor a:hover {
   color: #fff;
 }

@@ -348,18 +348,17 @@
   /**
    * Visitor Counter
    */
-   var counterContainer = document.querySelector(".website-counter");
-   var visitCount = localStorage.getItem("page_view");
-   
-   // Check if page_view entry is present
-   if (visitCount) {
-     visitCount = Number(visitCount) + 1;
-     localStorage.setItem("page_view", visitCount);
-   } else {
-     visitCount = 1;
-     localStorage.setItem("page_view", 1);
-   }
-   counterContainer.innerHTML = visitCount;
+  const countEl = document.getElementById('count');
+
+  updateVisitCount();
+  
+  function updateVisitCount() {
+    fetch('https://api.countapi.xyz/update/galacyber.is-a.dev/youtube/?amount=1')
+      .then(res => res.json())
+        .then(res => {
+          countEl.innerHTML = res.value;
+        })
+  }
 
    /**
     * Animated text

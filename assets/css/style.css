@@ -1230,10 +1230,10 @@ section .container {
     background: rgba(0, 0, 0, 0.8);
   }
 }
-.visitor a {
+.visitor h8 {
   color: #18d26e;
   transition: 0.5s;
 }
-.visitor a:hover {
+.visitor h8:hover {
   color: #fff;
 }

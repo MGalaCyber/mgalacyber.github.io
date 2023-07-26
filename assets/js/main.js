@@ -348,17 +348,17 @@
   /**
    * Visitor Counter
    */
-  const countEl = document.getElementById('count');
+  // const countEl = document.getElementById('count');
 
-  updateVisitCount();
+  // updateVisitCount();
   
-  function updateVisitCount() {
-    fetch('https://api.countapi.xyz/update/galacyber.is-a.dev/youtube/?amount=1')
-      .then(res => res.json())
-        .then(res => {
-          countEl.innerHTML = res.value;
-        })
-  }
+  // function updateVisitCount() {
+  //   fetch('https://api.countapi.xyz/update/galacyber.is-a.dev/youtube/?amount=1')
+  //     .then(res => res.json())
+  //       .then(res => {
+  //         countEl.innerHTML = res.value;
+  //       })
+  // }
 
    /**
     * Animated text
